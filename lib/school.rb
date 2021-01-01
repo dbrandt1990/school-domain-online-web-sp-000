@@ -22,7 +22,7 @@ class School
   end
   
   def sort
-    @roster.filter do |grade, students|
+    @roster.filter do |grade, students_array|
       students.sort!
     end
   end
